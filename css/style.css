@@ -220,6 +220,7 @@ figure {
   margin: 0 auto; }
 
 #template-main {
+  background-image: url('../images/background/background1.png');
   width: calc(100% - 300px);
   float: right;
   -webkit-transition: 0.5s;
@@ -380,6 +381,7 @@ body.offcanvas {
 .template-about,
 .template-services,
 .template-contact {
+  background-image: url('../images/background/background1.png') !important;
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
