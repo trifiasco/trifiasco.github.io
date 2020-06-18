@@ -26,41 +26,5 @@
                 "I completed my B.Sc in Computer Science and Engineering from Military Institute of Science & Technology(MIST). While doing so I was mostly into Competitive programming and Problem solving. I have solved around 800 programming problems using several data-structures and algorithms in different online judges. Also I participated in several online and onsite national programming contests including two ACM-ICPC regionals. I also built several projects as a student."
             ]
         }
-    ],
-    "Achievements": [
-        {
-            "name": "ACM ICPC Dhaka Regionals 2016",
-            "Description": "Secured 13th position at ACM ICPC Dhaka Regionals 2016 among 120+ teams",
-            "images": [
-                "ICPC 2016 - 1.jpg",
-                "ICPC 2016 - 2.jpg"
-            ]
-        },
-        {
-            "name": "DIU ACM ICPC World Finals Warm up 2016",
-            "Description": "Secured 7th position at DIU ACM ICPC World Finals Warm up 2016 among 60+ teams",
-            "images": []
-        },
-        {
-            "name": "ACM ICPC Dhaka Regionals 2015",
-            "Description": "Secured 41st position at ACM ICPC Dhaka Regionals 2015 among 120+ teams",
-            "images": [
-                "ICPC 2015.jpg"
-            ]
-        },
-        {
-            "name": "ULAB mini Inter Universtiy Programming Contest 2015",
-            "Description": "Champion at ULAB mini Inter Universtiy Programming Contest 2015 among 20+ teams",
-            "images": [
-                "ULAB mini IUPC 2015.jpg"
-            ]
-        },
-        {
-            "name": "UAP mini Inter Universtiy Programming Contest 2015",
-            "Description": "1st Runners up at UAP mini Inter Universtiy Programming Contest 2015 among 20+ teams",
-            "images": [
-                "UAP mini IUPC 2015.jpg"
-            ]
-        }
     ]
 }

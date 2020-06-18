@@ -5,6 +5,7 @@ import About from '../components/about';
 import Experience from '../components/experience';
 import Education from '../components/education';
 import Skills from '../components/skills';
+import Achievements from '../components/achievements';
 import Projects from '../components/projects';
 import Contact from '../components/contact';
 import logo from '../logo.svg';
@@ -22,6 +23,7 @@ function Main() {
           <Experience></Experience>
           <Skills></Skills>
           <Education></Education>
+          <Achievements></Achievements>
           {/* <Projects></Projects> */}
           <Contact></Contact>
         </div>
