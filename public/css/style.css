@@ -1462,3 +1462,8 @@ body.offcanvas {
   align-items: center;
   justify-content: center;
 }
+
+#particle canvas{
+  z-index: 2 !important;
+  left: 300px !important;
+}
