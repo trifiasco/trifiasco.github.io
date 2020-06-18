@@ -1,0 +1,65 @@
+{
+    "Personal Information": [
+      {
+        "Name": "",
+        "Email": "",
+        "Phone": "",
+        "Github-Profile": "",
+        "LinkedIn-Profile": ""
+      }
+      
+    ],
+    "Professional Experience": [
+      {
+        "Company Name": "",
+        "Position": "",
+        "Timeline": {
+          "Start": "",
+          "End": ""
+        },
+        "Key Responsibilities": [
+        ]
+      }
+    ],
+    "Education": [
+      {
+        "Institution": "",
+        "Degree": "",
+        "Timeline": {
+          "Start": "",
+          "End": ""
+        }
+      }
+    ],
+    "Technical Skills": [
+      {
+        "Languages": [
+          ""
+        ],
+        "Web Technologies and Frameworks": [
+          ""
+        ],
+        "Databases": [
+         ""
+        ],
+        "Cloud Technology": [
+         ""
+        ],
+        "Others": [
+          ""
+        ]
+      }
+    ],
+    "Projects": [
+      
+      {
+        "Name": "",
+        "About": {
+          "Description" : "",
+          "Language": ""
+        },
+        "github-link": ""
+      }
+     
+    ] 
+  }
