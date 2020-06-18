@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import experience from '../info/experience.json';
 
 const Experience = () => {
@@ -31,7 +31,7 @@ const Experience = () => {
                                               </h2>
                                               {item["Key Responsibilities"].map(entry => {
                                                   return (
-                                                    <li>{entry}</li>
+                                                    <li className="experience" dangerouslySetInnerHTML={{__html:entry}}></li>
                                                   );
                                               })}
 					                       </div>
