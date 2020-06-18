@@ -7,9 +7,9 @@
 /configs
 
 #personal info
-!info
-info/*
-!info/sample.json
+!src/info
+src/info/*
+!src/info/sample.json
 
 # testing
 /coverage
