@@ -22,9 +22,9 @@ function Main() {
           <About></About>
           <Experience></Experience>
           <Skills></Skills>
+          {/* <Projects></Projects> */}
           <Education></Education>
           <Achievements></Achievements>
-          {/* <Projects></Projects> */}
           {/* <Contact></Contact> */}
         </div>
       </div>

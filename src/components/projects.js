@@ -3,17 +3,17 @@ import React, {useState} from 'react';
 const Projects = () => {
     return (
         <div>
-            <section class="template-work" data-section="work">
+            <section class="template-work" data-section="projects">
 				<div class="template-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="template-heading animate-box">Recent Work</h2>
+							{/* <span class="heading-meta">My Work</span> */}
+							<h2 class="template-heading animate-box">Projects</h2>
 						</div>
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Web Application</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+							<p class="work-menu"><span><a href="#" class="active">Web Application</a></span> <span><a href="#">NPM Package</a></span> <span><a href="#">Software</a></span> <span><a href="#">Mobile Apps</a></span></p>
 						</div>
 					</div>
 					<div class="row">
