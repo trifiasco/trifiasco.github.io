@@ -1,0 +1,42 @@
+{
+    "Education": [
+        {
+          "Institution": "Military Institute of Science & Technology",
+          "Degree": "B.Sc in Computer Science & Engineering",
+          "Timeline": {
+            "Start": "January 2013",
+            "End": "April 2018"
+          },
+          "Activities": [
+            "Took part in Competitive programming and problem Solving which made me fluent in coding and algorithmic knowledge.",
+            "Worked as an Event Manager at MIST Programming Club in the session 2014-15",
+            "Worked as Treasurer of MIST Programming Club for the session 2015-16.",
+            "Worked as a trainer of \"Competitive Programming and Problem Solving\" class arranged by MIST Programming Club for 2+ years.",
+            "Developed several academic projects."
+          ]
+        },
+        {
+          "Institution": "Notre Dame College",
+          "Degree": "Higher Secondary School Certificate",
+          "Timeline": {
+            "Start": "June 2010",
+            "End": "July 2012"
+          },
+          "Activities": [
+              "Was a member of Notre Dame College Science Club"
+          ]
+        },
+        {
+            "Institution": "Faridpur Zilla School",
+            "Degree": "Secondary School Certificate",
+            "Timeline": {
+              "Start": "January 2003",
+              "End": "June 2010"
+            },
+            "Activities": [
+                "Participated in several National and Regional Math Olympiads",
+                "Secured 1st Runners up position in Math Olympiad Regional 2005"
+            ]
+          }
+      ]
+}

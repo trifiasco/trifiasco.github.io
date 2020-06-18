@@ -1,0 +1,31 @@
+{
+    "Professional Experience": [
+        {
+          "Company Name": "Craftsmen Ltd",
+          "Position": "Software Development Engineer",
+          "Timeline": {
+            "Start": "December, 2019",
+            "End": "Present"
+          },
+          "Key Responsibilities": [
+            "Developed application wide features on a ​ Web Application ​for​ Digitizing Newsroom",
+            "Designed and developed a microservice from scratch to communicate and process payload to or from other third party vendors"
+          ]
+        },
+        {
+            "Company Name": "Enosis Solutions",
+            "Position": "Software Engineer",
+            "Timeline": {
+              "Start": "December, 2017",
+              "End": "November, 2019"
+            },
+            "Key Responsibilities": [
+              "Developed multiple application wide features on a large Fin-Tech web application.",
+              "Globalized(Internationalized) a full scale web application to support any number of locales(as of now 4) by using several localizing frameworks and libraries in both back and front end",
+              "Designed & Implemented framework to support different fiscal year format (from -12 to +12) in all financial logics and reports’ calculations by devising formulas using modular arithmetic to replace manual conversion, improve efficiency and reduce the length of code-base by 90%",
+              "Designed & developed REST APIs and AngularJS components to translate the legacy application (built in ASP .NET MVC) to modularized SOA (Service-Oriented-Application).",
+              "Reduced server query response by 15-20% by designing several constructive algorithms while Porting over legacy application to SOA."      
+            ]
+          }
+      ]
+}

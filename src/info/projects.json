@@ -1,0 +1,22 @@
+{
+    "Projects": [
+    {
+      "type": "web-app",
+      "Name": "Automated-Code-Judge",
+      "About": {
+        "Description" : "A LAN-based client server  system to judge computer codes",
+        "Language": "Python 3.5x"
+      },
+      "github-link": "https://github.com/trifiasco/Automated-Code-Judge"
+    },
+    {
+      "type": "mobile-app",
+      "Name": "Awaaz",
+      "About": {
+        "Description" : "A text to speech converter mobile application",
+        "Language": "Android"
+      },
+      "github-link": "https://github.com/howcum/Awaaz"
+    }
+  ] 
+}

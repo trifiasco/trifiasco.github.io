@@ -1,0 +1,52 @@
+{
+    "Technical Skills": [
+        {
+          "division": "Languages",
+          "items": [
+            {"name": "C++", "level": 75},
+            {"name": "Python", "level": 65},
+            {"name": "Javascript", "level": 80},
+            {"name": "C#", "level": 80},
+            {"name": "F#", "level": 60}
+          ]
+        },
+        {
+          "division": "Web Technologies and Frameworks",
+          "items": [
+            {"name": "Node.js", "level": 75},
+            {"name": "Django", "level": 70},
+            {"name": "React.js", "level": 80},
+            {"name": "GraphQL", "level": 70},
+            {"name": "Apollo", "level": 70},
+            {"name": "AngularJs", "level": 80},
+            {"name": "ASP.NET MVC", "level": 75}
+          ]
+        },
+        {
+          "division": "Cloud Technology",
+          "items": [
+            {"name": "AWS", "level": 50}
+          ]
+        },
+        {
+          "division": "Databases",  
+          "items": [
+            {"name": "DynamoDb", "level": 80},
+            {"name": "Microsoft SQL Server", "level": 90},
+            {"name": "MySQL", "level": 85},
+            {"name": "SQLITE", "level": 75}
+          ]
+        },
+        {
+          "division": "Others",  
+          "items": [
+            {"name": "Data Structures", "level": 90},
+            {"name": "Algorithms", "level": 90},
+            {"name": "OOP", "level": 95},
+            {"name": "Functional Programming", "level": 85},
+            {"name": "git", "level": 95},
+            {"name": "Docker", "level": 90}
+          ]
+        }
+      ]
+}
