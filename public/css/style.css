@@ -80,7 +80,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -110,15 +110,34 @@ figure {
   #template-aside #template-logo {
     text-align: right;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 32px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
     #template-aside #template-logo a {
       display: block;
       text-align: center;
-      color: #000;
+      color: #eee;
       padding-right: .3em; }
+    .sidebar-lastname {
+        color: crimson;
+      }
+    .short-bio{
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: .5em;
+      display: block;
+      width: 100%;
+      color: #eee;
+    }
+    .email{
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: .5em;
+      display: block;
+      width: 100%;
+      color: #eee;
+    }
   #template-aside #template-main-menu {
     display: block;
     width: 100%; }
@@ -140,7 +159,8 @@ figure {
         text-transform: uppercase;
         letter-spacing: 1px; }
         #template-aside #template-main-menu ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          /* color: rgba(0, 0, 0, 0.7); */
+          color: #eee;
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -169,7 +189,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #template-aside #template-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #eee; }
             #template-aside #template-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -235,7 +255,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #template-hero .flexslider {
     border: none;
@@ -253,7 +273,7 @@ figure {
     #template-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
-      left: 20px;
+      left: 40px;
       float: left;
       width: auto; }
       @media screen and (max-width: 768px) {
@@ -261,7 +281,7 @@ figure {
           right: 20px;
           top: 100px; } }
       #template-hero .flexslider .flex-control-nav li {
-        display: block;
+        display: inline-block;
         margin-bottom: 10px; }
         #template-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
@@ -273,7 +293,7 @@ figure {
           #template-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #2c98f0; }
+            border: 15px solid #000; }
     #template-hero .flexslider .flex-direction-nav {
       display: none; }
     #template-hero .flexslider .slider-text {
@@ -379,6 +399,7 @@ body.offcanvas {
 .template-work,
 .template-about,
 .template-services,
+.template-achievements,
 .template-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -404,7 +425,7 @@ body.offcanvas {
   position: relative; }
 
 .template-heading {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -1426,3 +1447,50 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.some-icon{
+  font-size: 32px;
+}
+.some-text{
+  font-size: 24px;
+}
+.some-link{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #eee;
+}
+.some-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#particle canvas{
+  z-index: 2 !important;
+  left: 520px !important;
+}
+
+p.about{
+  font-size: 1.6rem;
+  font-weight: 420;
+  color: #4a4a4a;
+}
+li.experience{
+  font-size: 1.6rem;
+  font-weight: 420;
+  color: #4a4a4a;
+}
+li.awards{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+li.education{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-style: italic;
+  margin-bottom: 20px;
+}

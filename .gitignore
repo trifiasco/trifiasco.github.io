@@ -6,6 +6,11 @@
 .pnp.js
 /configs
 
+#personal info
+!src/info
+src/info/*
+!src/info/sample.json
+
 # testing
 /coverage
 

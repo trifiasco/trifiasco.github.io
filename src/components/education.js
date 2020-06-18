@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import education from '../info/education.json';
 
 const Education = () => {
@@ -8,7 +8,7 @@ const Education = () => {
 				<div class="template-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
+							{/* <span class="heading-meta">Education</span> */}
 							<h2 class="template-heading animate-box">Education</h2>
 						</div>
 					</div>
@@ -30,7 +30,7 @@ const Education = () => {
 													 	<div>
 															<h5>
 																<b>{item.Institution}</b>
-																<span style={{float: "right"}}>{item.Timeline.Start} - {item.Timeline.End}</span>
+																<span style={{float: "right", fontStyle:'italic'}}>{item.Timeline.Start} - {item.Timeline.End}</span>
 															</h5>
 															
 														</div>
@@ -38,7 +38,7 @@ const Education = () => {
                                                             {item.Activities.map(activity => {
                                                                 return (
                                                                     <div class="col-md-6">
-                                                                        <li>{activity}</li>
+                                                                        <li className="education" dangerouslySetInnerHTML={{__html: activity}}></li>
                                                                     </div>
                                                                 )
                                                             })}
