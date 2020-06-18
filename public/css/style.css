@@ -255,7 +255,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   clear: both; }
   #template-hero .flexslider {
     border: none;
@@ -273,7 +273,7 @@ figure {
     #template-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
-      left: 20px;
+      left: 40px;
       float: left;
       width: auto; }
       @media screen and (max-width: 768px) {
@@ -281,7 +281,7 @@ figure {
           right: 20px;
           top: 100px; } }
       #template-hero .flexslider .flex-control-nav li {
-        display: block;
+        display: inline-block;
         margin-bottom: 10px; }
         #template-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
@@ -293,7 +293,7 @@ figure {
           #template-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #2c98f0; }
+            border: 15px solid #000; }
     #template-hero .flexslider .flex-direction-nav {
       display: none; }
     #template-hero .flexslider .slider-text {
