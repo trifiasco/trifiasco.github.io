@@ -40,7 +40,7 @@ const Contact = () => {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-md-push-1">
+						{/* <div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form action="">
@@ -63,7 +63,7 @@ const Contact = () => {
 								</div>
 								
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>

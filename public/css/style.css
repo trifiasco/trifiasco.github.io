@@ -1449,7 +1449,7 @@ body.offcanvas {
   opacity: 0; }
 
 .some-icon{
-  font-size: 24px;
+  font-size: 32px;
 }
 .some-text{
   font-size: 24px;
@@ -1457,6 +1457,7 @@ body.offcanvas {
 .some-link{
   margin-left: 10px;
   margin-right: 10px;
+  color: #eee;
 }
 .some-links{
   display: flex;
@@ -1478,4 +1479,18 @@ li.experience{
   font-size: 1.6rem;
   font-weight: 420;
   color: #4a4a4a;
+}
+li.awards{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+li.education{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-style: italic;
+  margin-bottom: 20px;
 }

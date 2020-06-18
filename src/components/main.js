@@ -25,7 +25,7 @@ function Main() {
           <Education></Education>
           <Achievements></Achievements>
           {/* <Projects></Projects> */}
-          <Contact></Contact>
+          {/* <Contact></Contact> */}
         </div>
       </div>
     </div>

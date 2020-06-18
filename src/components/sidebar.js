@@ -26,13 +26,14 @@ const Sidebar = () => {
                   {/* <li><a href="#" data-nav-section="projects">Projects</a></li> */}
                   <li><a href="#education" data-nav-section="education">Education</a></li>
                   <li><a href="#achievemts" data-nav-section="achievements">Achievements</a></li>
-                  <li><a href="#contact" data-nav-section="contact">Contact</a></li>
+                  {/* <li><a href="#contact" data-nav-section="contact">Contact</a></li> */}
                   {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
                 </ul>
               </div>
             </nav>
             <nav id="template-footer">
               <div className="some-links">
+                {/* <a className="some-link" href="mailto:trifiasco@gmail.com" target="_blank" rel="noopener noreferrer"><i className="icon-mail some-icon"/></a> */}
                 <a className="some-link" href="https://www.linkedin.com/in/arnab-roy-600403a1/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2 some-icon"/></a>
                 <a className="some-link" href="https://github.com/trifiasco" target="_blank" rel="noopener noreferrer"><i className="icon-github some-icon"/></a>
                 <a className="some-link" href="https://stackoverflow.com/users/9041122/arnab-roy" target="_blank" rel="noopener noreferrer"><i className="icon-stackoverflow some-icon"/></a>
