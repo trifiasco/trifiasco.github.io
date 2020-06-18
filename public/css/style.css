@@ -425,7 +425,7 @@ body.offcanvas {
   position: relative; }
 
 .template-heading {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -1467,4 +1467,10 @@ body.offcanvas {
 #particle canvas{
   z-index: 2 !important;
   left: 520px !important;
+}
+
+p.about{
+  font-size: 1.6rem;
+  font-weight: 420;
+  color: #4a4a4a;
 }

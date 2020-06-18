@@ -3,7 +3,7 @@
         {
             "section": "bio",
             "description": [
-                "I am a Software Engineer, Competitive Programming and Problem Solving Enthusiast. I love learning new things like - programming languages, technology, design patterns, algorithms, data-structure and any other tech stuff you can name."
+                "I am a <b>Software Engineer</b>, <b>Competitive Programming and Problem Solving Enthusiast</b>. I love learning new things like - programming languages, technology, design patterns, algorithms, data-structure and any other tech stuff you can name."
             ]
         },
         {
@@ -17,13 +17,13 @@
         {
             "section": "current work",
             "description": [
-                "Currently I am working at Craftsmen Ltd, a startup, as a Software Development Engineer. My responsibilities involves fullstack software development. I work on a web application which is a digitized newsroom platform. I developed multiple application wide features."
+                "Currently I am working at <b><a href='https://www.craftsmenltd.com/'>Craftsmen Ltd</a></b>, a startup, as a <b>Software Development Engineer</b>. My responsibilities involves fullstack software development on a web application for digitizing newsroom workflow."
             ]
         },
         {
             "section": "background",
             "description": [
-                "I completed my B.Sc in Computer Science and Engineering from Military Institute of Science & Technology(MIST). While doing so I was mostly into Competitive programming and Problem solving. I have solved around 800 programming problems using several data-structures and algorithms in different online judges. Also I participated in several online and onsite national programming contests including two ACM-ICPC regionals. I also built several projects as a student."
+                "I completed <b>B.Sc in Computer Science and Engineering</b> from <b>Military Institute of Science & Technology(MIST)</b>. While doing so I was mostly into Competitive programming and Problem solving. I have solved around 800 programming problems using several data-structures and algorithms in different online judges. Also I participated in several online and onsite national programming contests including two ACM-ICPC regionals. I also built several pet projects as a student and even while doing a full time job."
             ]
         }
     ]

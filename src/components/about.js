@@ -18,7 +18,7 @@ const About = () => {
                         return (
                             section.description.map(entry => {
                                 return (
-                                    <p>{entry}</p>
+                                    <p className="about" dangerouslySetInnerHTML={{__html: entry}}></p>
                                 );
                             })
                         )
