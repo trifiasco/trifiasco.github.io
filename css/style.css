@@ -1469,7 +1469,8 @@ body.offcanvas {
 
 #particle canvas{
   z-index: 2 !important;
-  left: 42vw !important;
+  left: 49vw !important;
+  width: 49vw !important;
   /* height: 1100vh !important; */
 }
 
