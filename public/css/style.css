@@ -371,7 +371,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #f2f3f7;
+    background: #000;
     z-index: 999;
     position: fixed; }
   body.offcanvas #template-main, body.offcanvas .template-nav-toggle {
@@ -405,7 +405,8 @@ body.offcanvas {
   padding-bottom: 9em;
   clear: both;
   width: 100%;
-  display: block; }
+  display: block;
+  background-color: #333333; }
   @media screen and (max-width: 768px) {
     .template-experience,
     .template-skills,
@@ -425,6 +426,7 @@ body.offcanvas {
   position: relative; }
 
 .template-heading {
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1467,30 +1469,36 @@ body.offcanvas {
 
 #particle canvas{
   z-index: 2 !important;
-  left: 520px !important;
+  left: 42vw !important;
+  /* height: 1100vh !important; */
 }
 
 p.about{
   font-size: 1.6rem;
   font-weight: 420;
-  color: #4a4a4a;
+  color: #fff;
 }
 li.experience{
   font-size: 1.6rem;
   font-weight: 420;
-  color: #4a4a4a;
+  color: #000;
 }
 li.awards{
   font-size: 1.6rem;
   font-weight: 500;
-  color: #4a4a4a;
+  color: #fff;
   font-style: italic;
   margin-bottom: 20px;
 }
 li.education{
   font-size: 1.4rem;
   font-weight: 500;
-  color: #4a4a4a;
+  color: #000;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+.skill-subheading,
+.skill-label {
+  color: #fff !important;
 }

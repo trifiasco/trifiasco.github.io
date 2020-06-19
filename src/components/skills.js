@@ -28,13 +28,13 @@ const Skills = () => {
 							{skills["Technical Skills"].map((division, index) => {
 								return (
 									<>
-										<h3 class="col-md-12 animate-box" data-animate-effect="fadeInLeft">{division["division"]}</h3>
+										<h3 class="col-md-12 animate-box skill-subheading" data-animate-effect="fadeInLeft">{division["division"]}</h3>
 										<div>
 											{division.items.map(item => {
 												return (
 												<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 													<div class="progress-wrap">
-														<h3>{item.name}</h3>
+														<h3 className="skill-label">{item.name}</h3>
 														<div class="progress">
 															 <div className={`progress-bar color-${index + 1}`} role="progressbar" aria-valuenow={item.level}
 															  aria-valuemin="0" aria-valuemax="100" style={{"width" : `${item.level}%`}}>
