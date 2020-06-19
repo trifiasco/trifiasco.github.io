@@ -6,7 +6,7 @@ import Main from './components/main';
 function App() {
   return (
     <div>
-      <div id="particle"><ParticlesBg type="cobweb" bg={true}/></div>
+      <div id="particle"><ParticlesBg type="cobweb" bg={true} num={40}/></div>
       <Main />
     </div>
   );
