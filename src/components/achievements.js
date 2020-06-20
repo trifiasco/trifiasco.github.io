@@ -17,11 +17,14 @@ const Achievements = () => {
                         return (
                             <div>
                                 <li className="awards" dangerouslySetInnerHTML={{__html: item.Description}}></li>
-                                {item.images.map(img => {
-                                    return (
-                                        <img alt="awards" style={{height: '50vh', width: '50vh', marginLeft: '20px', marginRight: '20px', marginBottom: '20px'}} src={`${process.env.PUBLIC_URL}/images/achievements/${img}`}/>
-                                    )
-                                })}
+                                <div style={{display: 'flex', justifyContent: 'center'}}>
+                                    {item.images.map(img => {
+                                        return (
+                                            <img alt="awards" style={{height: 'auto', width: '100%', minWidth:'200px', maxWidth: '400px', marginLeft: '10px', marginRight: '10px', marginBottom: '20px'}} src={`${process.env.PUBLIC_URL}/images/achievements/${img}`}/>
+                                        )
+                                    })}
+                                </div>
+                                
                             </div>
                             
                         )
