@@ -26,7 +26,7 @@ const Experience = () => {
 
 					                       <div class="timeline-label">
 					                          <h2>
-                                                <div style={{"marginBottom": "5px"}}><b>{item.Position}</b> at <a href="#">{item["Company Name"]}</a></div>
+                                                <div style={{"marginBottom": "5px"}}><b>{item.Position}</b> at <a href={item["Comapny URL"]} target="_blank" rel="noopener noreferrer">{item["Company Name"]}</a></div>
                                                 <div><span>{`(${item.Timeline.Start} - ${item.Timeline.End})`}</span></div>
                                               </h2>
                                               {item["Key Responsibilities"].map(entry => {
