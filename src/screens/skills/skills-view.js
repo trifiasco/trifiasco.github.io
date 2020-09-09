@@ -46,7 +46,8 @@ const Skills = () => {
                           >
                             <div class="progress-wrap">
                               <h3 className="skill-label">{item.name}</h3>
-                              <div class="progress">
+
+                              {/* <div class="progress">
                                 <div
                                   className={`progress-bar color-${index + 1}`}
                                   role="progressbar"
@@ -57,7 +58,7 @@ const Skills = () => {
                                 >
                                   <span>{item.level}</span>
                                 </div>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         );

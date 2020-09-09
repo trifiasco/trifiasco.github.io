@@ -1915,3 +1915,8 @@ li.education {
 .skill-label {
   color: #000 !important;
 }
+
+.skill-label {
+  font-size: 6.6rem;
+  font-weight: 500;
+}

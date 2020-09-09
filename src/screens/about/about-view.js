@@ -1,5 +1,14 @@
 import React from "react";
+import DevIcon from "devicon-react-svg";
 import about from "../../info/about.json";
+import skills from "../../info/skills.json";
+import SimpleIcons from "simple-icons-react-component";
+import getIcons from "../../components/utils/icons";
+
+const devIconStyle = {
+  fill: "thistle",
+  width: "150px",
+};
 
 const About = () => {
   return (
@@ -29,6 +38,37 @@ const About = () => {
                         );
                       });
                     })}
+                  </div>
+                  <div className="heading-meta">
+                    <p style={{ fontWeight: "1000", fontSize: "15px" }}>
+                      Tech I have worked with:
+                    </p>
+                  </div>
+                  <div className="tech-stack">
+                    <div>
+                      <div className="heading-meta">languages</div>
+                      {getIcons("javascript")}
+                      {getIcons("python")}
+                      {getIcons("cpp")}
+                      {getIcons("graphql")}
+                      {/* {getIcons("sql")} */}
+                    </div>
+                    <div>
+                      <div className="heading-meta">Web Technlogies</div>
+                      {getIcons("nodejs")}
+                      {getIcons("react")}
+                      {/* {getIcons("apollo")} */}
+                      {getIcons("django")}
+                    </div>
+                    <div>
+                      <div className="heading-meta">Cloud</div>
+                      {getIcons("aws")}
+                    </div>
+                    <div>
+                      <div className="heading-meta">Tools</div>
+                      {getIcons("git")}
+                      {getIcons("docker")}
+                    </div>
                   </div>
                 </div>
               </div>
