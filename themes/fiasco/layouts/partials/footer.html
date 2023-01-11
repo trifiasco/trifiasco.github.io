@@ -1,0 +1,10 @@
+  <footer>
+  {{ partial "katex.html" .}}
+  {{ partial "foot_custom.html" . }}
+  {{ with .Site.Data.info.footer }}
+  <hr/>
+  {{ replace . "{Year}" now.Year | markdownify}}
+  {{ end }}
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<div> 
+    <h1 class="home-title">{{ .Site.Data.info.Name }}</h1>
+    <h5 class="home-bio">{{ index .Site.Data.info "Short Description" | markdownify }}</h5>
+    <ul class="external-link">
+      {{ range .Site.Data.info.Profiles}}
+        <li>
+            <a href="{{ .url | relURL }}">
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .pre | safeHTML }}
+                {{ $icon }}
+            </a>
+        </li>
+      {{ end }}
+    </ul>
+    <hr/>
+    <h3>Posts</h3>
+</div>

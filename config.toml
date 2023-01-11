@@ -1,5 +1,14 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://trifiasco.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Arnab Roy'
 
 theme = 'fiasco'
+
+[permalinks]
+post = "/posts/:year/:month/:day/:slug/"
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+

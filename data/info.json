@@ -1,0 +1,22 @@
+{
+   "Name": "Arnab Roy",
+   "Short Description": "Software Engineer | Python, Postgres, AWS",
+   "footer": "&copy; [Arnab Roy](https://trifiasco.github.io) 2022 -- {Year} | [Github](https://github.com/trifiasco)",
+   "Profiles": [
+        {
+            "name": "Home",
+            "url": "https://trifiasco.github.io",
+            "pre": "home"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/trifiasco/",
+            "pre": "linkedin"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/trifiasco",
+            "pre": "github"
+        }
+    ]
+}
