@@ -2,6 +2,7 @@
 title: "What I learned from running 300km and cycling 800km in 2025"
 date: 2025-12-27T17:10:12+01:00
 draft: false
+slug: "run_cycle_2025_review"
 tags: [training, running, cycling, review]
 categories: [training]
 description: "Personal learning about training, managing injuries, sustainable progressions and overall training efficacies from running 300km and cycling 800km in 2025"
