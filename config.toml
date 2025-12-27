@@ -9,7 +9,7 @@ theme = 'fiasco'
   category = "categories"
 
 [permalinks]
-post = "/posts/:slug/"
+posts = "/posts/:slug/"
 
 [[menu.main]]
 name = "Home"
