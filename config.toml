@@ -4,11 +4,36 @@ title = 'Arnab Roy'
 
 theme = 'fiasco'
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [permalinks]
-post = "/posts/:year/:month/:day/:slug/"
+post = "/posts/:slug/"
 
 [[menu.main]]
 name = "Home"
 url = ""
 weight = 1
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 

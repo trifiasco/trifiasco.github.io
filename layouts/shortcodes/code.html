@@ -1,0 +1,8 @@
+<div class="code-block">
+  {{ with .Get "filename" }}
+    <div class="code-filename">{{ . }}</div>
+  {{ end }}
+  <div class="highlight">
+    {{ highlight (.Inner | chomp) (.Get "lang") "linenos=table" }}
+  </div>
+</div>

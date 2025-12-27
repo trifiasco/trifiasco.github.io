@@ -22,7 +22,7 @@ body {
   border-radius: 5px;
 }
 .menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+.title { font-size: 32px; font-weight: 400; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
@@ -39,6 +39,88 @@ pre {
 code { background: #f9f9f9; }
 pre code { background: none; }
 
+/* Syntax highlighting */
+.highlight {
+  border-radius: 5px;
+  overflow-x: auto;
+}
+.highlight pre {
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+/* Line numbers */
+.highlight .ln {
+  margin-right: 1em;
+  color: #888;
+}
+
+/* Code block with filename */
+.code-filename {
+  background: #2d2d2d;
+  color: #ccc;
+  padding: 5px 15px;
+  border-radius: 5px 5px 0 0;
+  font-family: monospace;
+  font-size: 0.85em;
+}
+.code-block .highlight pre {
+  margin-top: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+/* post items in list */
+.post-item {
+  margin: 1.5em 0;
+}
+.post-item h3 {
+  margin: 0.3em 0;
+}
+.post-item h3 a {
+  text-decoration: none;
+}
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+}
+.post-description {
+  margin: 0.5em 0;
+  color: #555;
+}
+.post-tags a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 0.5em;
+}
+.post-tags a:hover {
+  text-decoration: underline;
+}
+
+/* table of contents */
+.toc {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.toc h4 { margin-top: 0; }
+.toc ul { margin-left: 1em; }
+.toc a { text-decoration: none; }
+
+/* tags */
+.tags { margin: 0 0 10px 0; }
+.tags a {
+  background-color: #f2f2f2;
+  color: #007bff;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.tags a:hover { background-color: #007bff; color: #fff; }
+
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
@@ -46,6 +128,18 @@ blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
+}
+
+/* figures and captions */
+figure {
+  margin: 2em 0;
+  text-align: center;
+}
+figcaption {
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5em;
+  font-size: 0.9em;
 }
 
 table {
