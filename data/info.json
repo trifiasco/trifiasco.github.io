@@ -1,12 +1,17 @@
 {
    "Name": "Arnab Roy",
-   "Short Description": "Software Engineer | Python, Postgres, AWS",
+   "Short Description": "Software Engineer | Python, AWS, PostgreSQL, DBT, Snowflake",
    "footer": "&copy; [Arnab Roy](https://trifiasco.github.io) 2022 -- {Year} | [Github](https://github.com/trifiasco)",
    "Profiles": [
         {
             "name": "Home",
             "url": "https://trifiasco.github.io",
             "pre": "home"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:arnab.roy.aeon@gmail.com",
+            "pre": "mail"
         },
         {
             "name": "Linkedin",

@@ -12,9 +12,14 @@ theme = 'fiasco'
 posts = "/posts/:slug/"
 
 [[menu.main]]
-name = "Home"
-url = ""
+name = "Writing"
+url = "/posts/"
 weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
 
 [markup]
   [markup.highlight]

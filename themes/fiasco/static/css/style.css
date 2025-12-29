@@ -9,19 +9,125 @@ body {
 .home-bio { margin: 0.2em; text-align: center; }
 .make-center {text-align: center; }
 
+/* Bio section */
+.bio-section {
+  margin: 2em 0;
+}
+
+.bio-section h1 {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bio-section .short-bio {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
 .external-link { padding: 0; text-align: center; }
 .external-link li { display: inline-block; text-align: center; }
 
 /* header and footer areas */
-.menu { padding: 0; }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0;
+  gap: 1em;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.navbar-left .home-icon {
+  text-decoration: none;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .home-icon:hover {
+  color: #0056b3;
+}
+
+.navbar-left .home-icon i {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-left .social-icon {
+  text-decoration: none;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .social-icon:hover {
+  color: #0056b3;
+}
+
+.navbar-left .social-icon i {
+  width: 20px;
+  height: 20px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.5em;
+  list-style: none;
+}
+
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+
+.menu a {
+  text-decoration: none;
+  background: #eee;
+  color: #007bff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.article-meta {
   text-decoration: none;
   background: #eee;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
+
+.article-meta, footer { text-align: center; }
+
+/* For now don't need it. Once there are more navbar items only them enable it */
+/* Responsive navbar */
+/* @media (max-width: 600px) { */
+/*   .navbar { */
+/*     flex-wrap: wrap; */
+/*     gap: 0.5em; */
+/*   } */
+
+/*   .navbar-left { */
+/*     order: 1; */
+/*   } */
+
+/*   .menu { */
+/*     order: 2; */
+/*     flex: 1 1 100%; */
+/*     justify-content: center; */
+/*   } */
+/* } */
 .title { font-size: 32px; font-weight: 400; }
 footer a { text-decoration: none; }
 hr {
