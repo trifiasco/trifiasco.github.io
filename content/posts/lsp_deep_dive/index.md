@@ -2,6 +2,7 @@
 title: "How LSP works: Building an LSP Server from Scratch with Rust"
 date: 2026-01-02T14:14:56+01:00
 draft: false
+slug: "lsp-deep-dive"
 tags: ["lsp", "rust", "neovim", "developer-tools"]
 categories: ["programming", "tooling"]
 description: "Understanding Language Server Protocol from architecture to implementation - building a grammar checker LSP from scratch with Rust"
