@@ -215,6 +215,7 @@ Also it's simple and as it doesn't operate on code, so doesn't require semantic 
 3. Step 3: Publishing diagnostics (`didSave` + `publishDiagnostics`)
 4. Step 4: Grammar checking (LLM integration)
 
+**See the full code in the [github-repo](https://github.com/trifiasco/grammar-lsp)**
 
 ### Setup and prerequisite
 Before we start, setup the development environment:
@@ -402,6 +403,31 @@ async fn did_save(&self, params: DidSaveTextDocumentParams) {
 }
 ```
 
+Add the save capability in the `initialize` method:
+```rust
+async fn initialize(&self, _: InitializeParams) -> Result<InitializeResult> {
+    Ok(InitializeResult {
+        capabilities: ServerCapabilities {
+            text_document_sync: Some(TextDocumentSyncCapability::Options(
+                TextDocumentSyncOptions {
+                    open_close: Some(true),
+                    change: Some(TextDocumentSyncKind::FULL),
+                    save: Some(TextDocumentSyncSaveOptions::SaveOptions(SaveOptions {
+                        include_text: Some(false),
+                    })), // Add this
+                    ..Default::default()
+                },
+            )),
+            ..Default::default()
+        },
+        server_info: Some(ServerInfo {
+            name: "grammar-lsp".to_string(),
+            version: Some("0.1.0".to_string()),
+        }),
+    })
+}
+```
+
 Add a stub grammar checker (add to the Backend impl):
 
 ```Rust
@@ -533,10 +559,7 @@ impl GrammarCheckProvider {
   5. Do NOT include explanations, only the JSON object
 
   Text to analyze:
-  {}"#
-,
-            text
-        )
+  {}"# ,text)
     }
 
     /// Build Ollama API request
@@ -747,6 +770,8 @@ Let's recap what we built:
 3. Data Layer(`ollama.rs`): Type definitions for requests/responses.
 
 You can swap out the ollama provider to any LLM provider of your choice. the LSP layer stays the same - It just calls `check_grammar()` and publishes whatever comes back.
+
+**See the full code in the [github-repo](https://github.com/trifiasco/grammar-lsp)**
 
 ### Next Steps
 Here are a few things you could try from here:
