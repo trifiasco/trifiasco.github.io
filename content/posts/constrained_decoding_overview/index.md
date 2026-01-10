@@ -44,7 +44,7 @@ There have been a few approaches to ensure LLM outputs conform to a predefined s
     ***Results:*** Again not 100% reliable. It varies on model, implementations. More importantly it adds latency and cost, making it not optimal.
 
 
-> The **[Instructor](https://python.useinstructor.com/)** python library combines few shot prompt engineering along with configurable retry loops. It converts Pydantic models to prompt instructions, validate LLM responses, and retries on validation failures.
+> The **[Instructor](https://python.useinstructor.com/)** python library combines few shot prompt engineering along with configurable retry loops. It converts Pydantic models to prompt instructions, validates LLM responses, and retries on validation failures.
 > This library reportedly achieves very high accuracy with modern models.
 
 **Bottom Line:** None of the above mentioned techniques could reliably guarantee 100% compliance with reported effectiveness in the range of 70-95%.
@@ -59,9 +59,9 @@ The core idea is to compute which tokens are valid given the current state and r
 ## How it works
 
 ### LLM token prediction refresher
-First, let's review how token generation process happens in LLM:
+First, let's review how the token generation process happens in LLM:
 
-- **Logits generation**: LLM process an input and produces a vector of logits for every token in its vocabulary (typically 50k+). Logits are unbounded raw numerical values indicating confidence/preference for each token as the next token.
+- **Logits generation**: LLM processes an input and produces a vector of logits for every token in its vocabulary (typically 50k+). Logits are unbounded raw numerical values indicating confidence/preference for each token as the next token.
 - **Softmax transformation**: Logits are then passed into a Softmax function, which squashes them into a probability distribution where all values sum to 1.
 - **Sampling**: A sampling technique like greedy decoding or temperature sampling uses these probabilities to select the final token as the next token.
 
@@ -78,7 +78,7 @@ So at a high level, we look at what has been generated and what the required str
 
 ### Implementation approaches
 
-The core part of any constrained decoding implementation is how it tracks the generated state and the required structure to produce the binary mask. There are few different approaches for this.
+The core part of any constrained decoding implementation is how it tracks the generated state and the required structure to produce the binary mask. There are a few different approaches for this.
 
 - **Finite State Machines (FSM):** Compiles schema into [FSMs](https://en.wikipedia.org/wiki/Finite-state_machine) that track current state and determine valid next tokens. FSMs are computational models that represent a finite number of states and possible transitions between states. Suitable for simpler structures.
 
@@ -248,9 +248,9 @@ If you are using any cloud or enterprise model provider, almost all of them as o
 
 | Provider | Feature | Guarantee | Notes |
 |----------|---------|-----------|-------|
-| **OpenAI** | Structured Outputs | 100% schema compliance | `strict: true` in function definitions; OpenAI claims 100% compliance and reports gpt-4o scores perfect on their internal evals (unverified externally) |
+| **OpenAI** | Structured Outputs | 100% schema compliance | `strict: true` in function definitions; OpenAI claims 100% compliance and reports gpt-4o scores perfect on their internal evals |
 | **OpenAI** | JSON Mode | Valid JSON only | No schema guarantee; deprecated in favor of Structured Outputs |
-| **Anthropic** | Structured Outputs (Beta) | Schema compliance | `strict: true` + beta header; available for Claude Sonnet 4.5+; announced Nov 2025 |
+| **Anthropic** | Structured Outputs (Beta) | Schema compliance | `strict: true` + beta header; available for Claude Sonnet 4.5+ |
 | **Anthropic (via Bedrock)** | Tool Use | High reliability (not constrained) | Tool calling uses prompt training, NOT constrained decoding; reliability similar to Instructor approach (95%+ range) |
 | **Google** | Function Calling | Schema compliance | Via Gemini API |
 | **AWS Bedrock (Nova models only)** | Native Constrained Decoding | 100% schema compliance | Automatic grammar generation from tool schemas; guarantees syntactically valid JSON; overall tool use accuracy ~95% due to semantic errors ([AWS blog](https://aws.amazon.com/blogs/machine-learning/structured-outputs-with-amazon-nova-a-guide-for-builders/)) |
