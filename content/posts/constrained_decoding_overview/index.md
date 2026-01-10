@@ -128,7 +128,7 @@ def schema_to_regex(schema: Dict) -> str:
 
       # Build full JSON object pattern
       inner_pattern = "\\s*,\\s*".join(patterns)
-      return f"\\{{\\s*{inner_pattern}\\s*\\}}"
+      return f"\\{{" + f"\\s*{inner_pattern}\\s*\\}}"
 
   return ""
 ```
