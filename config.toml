@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Arnab Roy'
 
 theme = 'fiasco'
+googleAnalytics = "G-ET3RG92LXC"
 
 [taxonomies]
   tag = "tags"
