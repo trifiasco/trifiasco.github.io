@@ -31,14 +31,14 @@ A compelling story must have a structure. A coherent and logical flow that the a
 A typical story will have three acts:
 - the first act sets up the story by introducing characters, the relationships between them, the world they live in. This is also when a meaningful stake is established. Typically introducing a dramatic incident along which the characters will have to (re)act.
 
-- the second act makes up the bulk of the story revolving around the characters attempt to solve the problem introduced in act one, going through changes as a result of what's happening (character development).
+- the second act makes up the bulk of the story revolving around the characters' attempt to solve the problem introduced in act one, going through changes as a result of what's happening (character development).
 
 - the third act resolves the story with a climax where tensions are at the highest point. This is where the dramatic question introduced in the first act is answered and concluding the character development for the major character(s).
 
 
 This is a tried and tested storytelling approach and works quite well. But this doesn't have to be rigid. There are other effective structures as well:
 
-- **Problem, Solution, CTA**: This is a very common variant and very popular in sales world. You introduce a problem with meaningful stake (first act), then you provide a solution (whatever you are trying to sell) and explain how that thing solves the problem (second act), and finally you ask for a call to action (CTA) to buy whatever you are trying to sell.
+- **Problem, Solution, CTA**: This is a very common variant and very popular in the sales world. You introduce a problem with meaningful stake (first act), then you provide a solution (whatever you are trying to sell) and explain how that thing solves the problem (second act), and finally you ask for a call to action (CTA) to buy whatever you are trying to sell.
 
 - **What, So what, Now what**: This is my favorite. I have successfully employed this in various situations ranging from architectural discussions to impromptu public speaking.
     - ***what***: This is your stance on a topic. For example, you were asked to evaluate a design decision. The "what" is where you state your stance.
@@ -54,7 +54,7 @@ This is a tried and tested storytelling approach and works quite well. But this 
     - bringing finality with "and that's not all, \<insert any additional benefits that the interesting thing could/would do\>"
 
 
-You might notice all the variants are somewhat similar with congruence to the 3 acts storytelling. It depends on specific situation and which one you might want to employ. But with practice you can internalize the structures and will be able to employ the "right one" to the right situation.
+You might notice all the variants are somewhat similar with congruence to the 3 acts storytelling. It depends on the specific situation and which one you might want to employ. But with practice you can internalize the structures and will be able to employ the "right one" for the right situation.
 
 
 ### Audience
@@ -72,7 +72,7 @@ When you are presenting live, **you have a high level of control**. You can slow
 
 But if you are sending documentation or an email, **you have very little control** how your audience might read it or where they would slow down or pay attention. You have to anticipate all the questions each reader might have. So you have to be very detailed, so that in case any questions arise, the documentation would have an answer.
 
-**It's a good idea to provide a tl;dr or an executive summary in the beginning and details afterwards.** This provides a nice balance between what's most important first for people would skim and details for those who would care about details.
+**It's a good idea to provide a tl;dr or an executive summary in the beginning and details afterwards.** This provides a nice balance between what's most important first for people who would skim and details for those who would care about details.
 
 ## Part 2: Effective data visualization
 
@@ -82,7 +82,7 @@ The second part of storytelling with data is all about how to effectively presen
 - *eliminating clutter from the visuals*
 - *focusing audience's attention to the right place*
 
-Everytime you present a chart/graph or any kind of visuals, you have to be very cautious about the **"perceived cognitive load"** of the audience. When you present a visual that has:
+Every time you present a chart/graph or any kind of visuals, you have to be very cautious about the **"perceived cognitive load"** of the audience. When you present a visual that has:
 
 - too many elements whether it's data or labels.
 - too many different concepts in one chart/graph.
@@ -165,10 +165,10 @@ Each chart should have an actionable title instead of a generic one. The title s
 
 ### Add a visual hierarchy
 
-Ideally there should be a visual hierarchy to help users understand to which order to read the data. This is typically achieved by size, color, position and/or annotation. For example, larger marker can help drawing attention as well as encode a data dimension.
+Ideally there should be a visual hierarchy to help users understand in which order to read the data. This is typically achieved by size, color, position and/or annotation. For example, larger marker can help drawing attention as well as encode a data dimension.
 
 {{< figure-row >}}
-{{< figure src="./fig14_lack_of_hierarchy.png" alt="Lack of visual hierarchy" caption="Figure 14: Lack of any hierarchy. Requires more effort to understand to which order to read the data" >}}
+{{< figure src="./fig14_lack_of_hierarchy.png" alt="Lack of visual hierarchy" caption="Figure 14: Lack of any hierarchy. Requires more effort to understand in which order to read the data" >}}
 
 {{< figure src="./fig15_size_as_visual_hierarchy.png" alt="Use size as a visual order" caption="Figure 15: Using size to represent composite data dimension of reach and engagement. Could easily determine the impact of each feature" >}}
 {{< /figure-row >}}
@@ -177,7 +177,7 @@ Ideally there should be a visual hierarchy to help users understand to which ord
 
 
 ### Be mindful about narrative flow
-It is very important to be mindful about the coherence and flow between different graphs/charts. Your visual elements and data should be in support of the story structure and narrative you decided to tell in the beginning. There should be a logical flow from one graph/charts to the next and each one should drive the story forward in a compact manner. You should be constantly asking does this support the narrative or just adds unnecessary noise.
+It is very important to be mindful about the coherence and flow between different charts. Your visual elements and data should be in support of the story structure and narrative you decided to tell in the beginning. There should be a logical flow from one chart to the next and each one should drive the story forward in a compact manner. You should constantly be asking whether this supports the narrative or just adds unnecessary noise.
 
 
 ## Recap
