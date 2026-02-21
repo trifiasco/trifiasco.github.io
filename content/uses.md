@@ -7,7 +7,7 @@ draft: false
 
 <!-- # What I Use -->
 
-*Last updated: January 2026*
+*Last updated: February 2026*
 
 This page lists the tools and software I use for development and productivity. 
 <!-- For deep dives into specific tools and workflows, check out my [blog posts](/posts/). -->
@@ -24,19 +24,21 @@ This page lists the tools and software I use for development and productivity.
 ## Terminal & Shell
 
 - **Terminal Emulator:** [Alacritty](https://alacritty.org/)
-- **Shell:** Zsh + [Antigen](https://github.com/zsh-users/antigen) + [Oh my zsh](https://ohmyz.sh/)
+- **Shell:** Zsh + [Sheldon](https://github.com/rossmacarthur/sheldon) + [zsh-defer](https://github.com/romkatv/zsh-defer)
+- **Prompt:** [Starship](https://starship.rs/)
 - **Multiplexer:** [Tmux](https://github.com/tmux/tmux) + [tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
 ## Editor
 
 - **Editor:** [Neovim](https://neovim.io/)
 - **Plugin Manager:** [lazy.nvim](https://github.com/folke/lazy.nvim)
-- **Core Plugins:** 
-  - Fuzzy finder/picker - ***telescope.nvim***
+- **Core Plugins:**
+  - Fuzzy finder/picker/explorer - ***snacks.nvim***
+  - Completion - ***blink.cmp***
   - Syntax highlighting and text objects - ***nvim-treesitter*** + ***nvim-treesitter-textobjects***
   - LSP - ***nvim-lspconfig*** + ***mason.nvim*** + ***mason-lspconfig.nvim***
   - Color scheme - ***gruvbox***
-  - Zettelkasten note taking - ***telekasten.nvim***
+  - Note taking - ***obsidian.nvim***
 - **Config:** [See dotfiles repo for full list](https://github.com/trifiasco/dotfiles/tree/main/dotfiles/nvim/lua/trifiasco/plugins)
 
 ## CLI Utilities
@@ -50,10 +52,9 @@ This page lists the tools and software I use for development and productivity.
 ## Package & Toolchain Management
 
 - **macOS:** [Homebrew](https://brew.sh/)
+- **Runtime Versions:** [mise](https://mise.jdx.dev/) (replaces nvm, pyenv, conda)
 - **Python:** [uv](https://github.com/astral-sh/uv)
-    - For some older projects `pyenv` for Python version management and `poetry` for dependency management.
 - **Rust:** [rustup](https://rustup.rs/) + Cargo
-- **Node:** [nvm](https://github.com/nvm-sh/nvm)
 
 ## Productivity
 
