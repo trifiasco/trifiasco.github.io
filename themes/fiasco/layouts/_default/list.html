@@ -16,9 +16,7 @@
   {{ range (where $pages "Section" "!=" "") }}
   <li>
     <div class="post-item">
-      <div class="post-meta">
-      </div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+      <h3><span class="post-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
     </div>
   </li>
   {{ end }}
