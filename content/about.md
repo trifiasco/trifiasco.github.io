@@ -4,7 +4,7 @@ date: 2025-12-29
 draft: false
 ---
 
-I've been writing code professionally for 6+ years, building backend systems and data infrastructure.
+I've been writing code professionally for 7+ years, building backend systems and data infrastructure.
 
 My path into software started with competitive programming—2x ACM-ICPC regionals participant, and solved 1000+ problems across different judges. That problem-solving foundation shaped how I approach engineering: break down complexity, optimize for performance, understand the system deeply.
 
