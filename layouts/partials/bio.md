@@ -1,4 +1,4 @@
-I build high-performance data pipelines and scalable distributed systems with 7+ years of experience, currently at Xeneta.
+I build distributed systems and data infrastructure with 7+ years of experience, currently at Xeneta.
 
 I work in the terminal with neovim and tmux. My [dotfiles](https://github.com/trifiasco/dotfiles) are on GitHub.
 
